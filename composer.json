@@ -6,7 +6,7 @@
 	"keywords": [
 		"Reportico",
 		"CodeIgniter",
-		"Reports",
+		"Report",
 		"Reporting"
 	],
 	"authors": [
@@ -19,8 +19,8 @@
 	],
 	"homepage": "https://github.com/daN4cat/codeigniter-reportico",
 	"require": {
-		"php": "^5.5 || ^7.0",
-		"reportico-web/reportico": "^4.6",
+		"php": ">=5.5.0",
+		"reportico-web/reportico": "dev-reportico-new-architecture",
 		"codeigniter/framework": "^3.1"
 	}
 }
