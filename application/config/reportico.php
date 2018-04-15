@@ -40,10 +40,10 @@ $config['framework_parent']= "ci";
 
 $config['projects_folder'] = "projects";
 $config['admin_projects_folder'] = "projects";
-$config['templates_folder'] = "views/reportico";
+//$config['templates_folder'] = "views/reportico";
 $config['compiled_templates_folder'] = "cache";
 
-$config['url_path_to_assets']=  '/public';
+//$config['url_path_to_assets']=  '/public';
 
 $config['bootstrap_styles']= "3";
 $config['bootstrap_preloaded']= false;

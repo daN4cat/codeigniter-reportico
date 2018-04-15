@@ -2,7 +2,6 @@
 
 class Partial extends CI_Controller
 {
-
     public function index()
     {
         /*
@@ -52,7 +51,6 @@ class Partial extends CI_Controller
         $this->reportico->embedded_report = true;
         $this->reportico->execute();
         //ob_end_flush();
-
     }
 }
 

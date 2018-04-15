@@ -6,7 +6,7 @@
  * Date: 25/08/2015
  * Time: 15:38
  */
-require_once ('reportico/reportico_module.php');
+require_once ('reportico.php');
 
 class Reportico {
 
@@ -23,7 +23,7 @@ class Reportico {
         $this->CI =&get_instance();
         $this->CI->load->helper('url');
 
-        $this->engine = new Reportico_module();
+        $this->engine = new Reportico();
         $config['url_path_to_assets'] =  base_url($config['url_path_to_assets']);
         $config['templates_folder'] = APPPATH . $config['templates_folder'];
         $config['compiled_templates_folder'] = APPPATH . $config['compiled_templates_folder'];
